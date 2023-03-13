@@ -24,6 +24,24 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
+        textTheme: const TextTheme(
+          titleMedium: TextStyle(
+            fontSize: 16,
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+          ),
+          displayLarge: TextStyle(
+            fontSize: 16,
+            color: Colors.black,
+            fontWeight: FontWeight.normal,
+            fontFamily: 'digitalFont',
+          ),
+          labelLarge: TextStyle(
+            fontSize: 16,
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         primarySwatch: Colors.blue,
       ),
       home: const HomePage(),
